@@ -125,7 +125,7 @@ class ViewController: UIViewController,URLSessionDelegate {
         
         var getRequest = URLRequest(url: getURL, cachePolicy: .useProtocolCachePolicy, timeoutInterval: 30)
         getRequest.httpMethod = "GET"
-        getRequest.setValue("55fe9e8845msh951c486382b46ffp12db9ajsn140970b1b7db", forHTTPHeaderField: "X-RapidAPI-Key")
+        getRequest.setValue("<insert API KEY>", forHTTPHeaderField: "X-RapidAPI-Key")
         getRequest.setValue("aylien-text.p.rapidapi.com", forHTTPHeaderField: "X-RapidAPI-Host")
         getRequest.setValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
         
