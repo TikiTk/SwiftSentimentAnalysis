@@ -1,0 +1,20 @@
+PODS:
+  - SwiftKeychainWrapper (3.0.1)
+  - TrustKit (1.5.3)
+
+DEPENDENCIES:
+  - SwiftKeychainWrapper
+  - TrustKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftKeychainWrapper
+    - TrustKit
+
+SPEC CHECKSUMS:
+  SwiftKeychainWrapper: 38952a3636320ae61bad3513cadd870929de7a4a
+  TrustKit: b2bd5cb6a69cb17a95af87af327ecaa93c8da4bd
+
+PODFILE CHECKSUM: 74b782e86bf062d98e2ce6c7a1e13477414f1d77
+
+COCOAPODS: 1.5.3

@@ -7,15 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A49C2E082E09672E8BFB2A5 /* Pods_Hello_World_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664F67F8C2B8CF469EACC44B /* Pods_Hello_World_.framework */; };
 		90FF32ED229D1DBC008DE9A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FF32EC229D1DBC008DE9A5 /* AppDelegate.swift */; };
 		90FF32EF229D1DBC008DE9A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90FF32EE229D1DBC008DE9A5 /* ViewController.swift */; };
 		90FF32F2229D1DBC008DE9A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90FF32F0229D1DBC008DE9A5 /* Main.storyboard */; };
 		90FF32F5229D1DBC008DE9A5 /* Hello_World_.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 90FF32F3229D1DBC008DE9A5 /* Hello_World_.xcdatamodeld */; };
 		90FF32F7229D1DBE008DE9A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90FF32F6229D1DBE008DE9A5 /* Assets.xcassets */; };
 		90FF32FA229D1DBE008DE9A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90FF32F8229D1DBE008DE9A5 /* LaunchScreen.storyboard */; };
+		F87D143222A1546B00063DE0 /* RegisterUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87D143122A1546B00063DE0 /* RegisterUsers.swift */; };
+		F87D143422A154F400063DE0 /* PasswordAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87D143322A154F400063DE0 /* PasswordAuth.swift */; };
+		F8CAAD2B22A53F8A00DF3D15 /* rapidapi.com.der in Resources */ = {isa = PBXBuildFile; fileRef = F8CAAD2A22A53F8A00DF3D15 /* rapidapi.com.der */; };
+		F8CAAD3322A56E0900DF3D15 /* tiki-mask_6460-353.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F8CAAD3222A56E0800DF3D15 /* tiki-mask_6460-353.jpg */; };
+		F8FAB051229EC886008BF16B /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F8FAB04F229EC886008BF16B /* Model.xcdatamodeld */; };
+		F8FAB053229FBE88008BF16B /* SentimentResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FAB052229FBE88008BF16B /* SentimentResults.swift */; };
+		F8FAB05622A110A9008BF16B /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8FAB05522A110A9008BF16B /* LocalAuthentication.framework */; };
+		F8FAB05822A11204008BF16B /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FAB05722A11204008BF16B /* Login.swift */; };
+		F8FAB05A22A14200008BF16B /* identity.png in Resources */ = {isa = PBXBuildFile; fileRef = F8FAB05922A14200008BF16B /* identity.png */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F8CAAD2F22A54E2300DF3D15 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		664F67F8C2B8CF469EACC44B /* Pods_Hello_World_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hello_World_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90FF32E9229D1DBC008DE9A5 /* Hello World!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello World!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90FF32EC229D1DBC008DE9A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		90FF32EE229D1DBC008DE9A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +48,17 @@
 		90FF32F6229D1DBE008DE9A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90FF32F9229D1DBE008DE9A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90FF32FB229D1DBE008DE9A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A22B071619A41FD55189E6B8 /* Pods-Hello World!.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hello World!.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hello World!/Pods-Hello World!.release.xcconfig"; sourceTree = "<group>"; };
+		CD38776555EEEC02DDF2170C /* Pods-Hello World!.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hello World!.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hello World!/Pods-Hello World!.debug.xcconfig"; sourceTree = "<group>"; };
+		F87D143122A1546B00063DE0 /* RegisterUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterUsers.swift; sourceTree = "<group>"; };
+		F87D143322A154F400063DE0 /* PasswordAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordAuth.swift; sourceTree = "<group>"; };
+		F8CAAD2A22A53F8A00DF3D15 /* rapidapi.com.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = rapidapi.com.der; sourceTree = "<group>"; };
+		F8CAAD3222A56E0800DF3D15 /* tiki-mask_6460-353.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "tiki-mask_6460-353.jpg"; path = "../../tiki-mask_6460-353.jpg"; sourceTree = "<group>"; };
+		F8FAB050229EC886008BF16B /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		F8FAB052229FBE88008BF16B /* SentimentResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentResults.swift; sourceTree = "<group>"; };
+		F8FAB05522A110A9008BF16B /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		F8FAB05722A11204008BF16B /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		F8FAB05922A14200008BF16B /* identity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = identity.png; path = ../../../../Downloads/identity.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +66,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8FAB05622A110A9008BF16B /* LocalAuthentication.framework in Frameworks */,
+				6A49C2E082E09672E8BFB2A5 /* Pods_Hello_World_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2229E75D5316409E2F79150A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD38776555EEEC02DDF2170C /* Pods-Hello World!.debug.xcconfig */,
+				A22B071619A41FD55189E6B8 /* Pods-Hello World!.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		90FF32E0229D1DBC008DE9A5 = {
 			isa = PBXGroup;
 			children = (
+				F8CAAD2A22A53F8A00DF3D15 /* rapidapi.com.der */,
 				90FF32EB229D1DBC008DE9A5 /* Hello World! */,
 				90FF32EA229D1DBC008DE9A5 /* Products */,
+				F8FAB05422A110A9008BF16B /* Frameworks */,
+				2229E75D5316409E2F79150A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +107,29 @@
 			children = (
 				90FF32EC229D1DBC008DE9A5 /* AppDelegate.swift */,
 				90FF32EE229D1DBC008DE9A5 /* ViewController.swift */,
+				F8FAB04F229EC886008BF16B /* Model.xcdatamodeld */,
 				90FF32F0229D1DBC008DE9A5 /* Main.storyboard */,
+				F8FAB05922A14200008BF16B /* identity.png */,
 				90FF32F6229D1DBE008DE9A5 /* Assets.xcassets */,
+				F8CAAD3222A56E0800DF3D15 /* tiki-mask_6460-353.jpg */,
 				90FF32F8229D1DBE008DE9A5 /* LaunchScreen.storyboard */,
 				90FF32FB229D1DBE008DE9A5 /* Info.plist */,
 				90FF32F3229D1DBC008DE9A5 /* Hello_World_.xcdatamodeld */,
+				F8FAB052229FBE88008BF16B /* SentimentResults.swift */,
+				F8FAB05722A11204008BF16B /* Login.swift */,
+				F87D143122A1546B00063DE0 /* RegisterUsers.swift */,
+				F87D143322A154F400063DE0 /* PasswordAuth.swift */,
 			);
 			path = "Hello World!";
+			sourceTree = "<group>";
+		};
+		F8FAB05422A110A9008BF16B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8FAB05522A110A9008BF16B /* LocalAuthentication.framework */,
+				664F67F8C2B8CF469EACC44B /* Pods_Hello_World_.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90FF32FE229D1DBE008DE9A5 /* Build configuration list for PBXNativeTarget "Hello World!" */;
 			buildPhases = (
+				C08F16E6BDE916A07ABD1CD8 /* [CP] Check Pods Manifest.lock */,
 				90FF32E5229D1DBC008DE9A5 /* Sources */,
 				90FF32E6229D1DBC008DE9A5 /* Frameworks */,
 				90FF32E7229D1DBC008DE9A5 /* Resources */,
+				E65A335EBE1B663B553EB332 /* [CP] Embed Pods Frameworks */,
+				F8CAAD2F22A54E2300DF3D15 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,7 +193,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8CAAD2B22A53F8A00DF3D15 /* rapidapi.com.der in Resources */,
 				90FF32FA229D1DBE008DE9A5 /* LaunchScreen.storyboard in Resources */,
+				F8CAAD3322A56E0900DF3D15 /* tiki-mask_6460-353.jpg in Resources */,
+				F8FAB05A22A14200008BF16B /* identity.png in Resources */,
 				90FF32F7229D1DBE008DE9A5 /* Assets.xcassets in Resources */,
 				90FF32F2229D1DBC008DE9A5 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +204,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C08F16E6BDE916A07ABD1CD8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hello World!-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E65A335EBE1B663B553EB332 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Hello World!/Pods-Hello World!-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+				"${BUILT_PRODUCTS_DIR}/TrustKit/TrustKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TrustKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Hello World!/Pods-Hello World!-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		90FF32E5229D1DBC008DE9A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				90FF32EF229D1DBC008DE9A5 /* ViewController.swift in Sources */,
+				F8FAB051229EC886008BF16B /* Model.xcdatamodeld in Sources */,
+				F87D143422A154F400063DE0 /* PasswordAuth.swift in Sources */,
 				90FF32ED229D1DBC008DE9A5 /* AppDelegate.swift in Sources */,
+				F87D143222A1546B00063DE0 /* RegisterUsers.swift in Sources */,
+				F8FAB05822A11204008BF16B /* Login.swift in Sources */,
 				90FF32F5229D1DBC008DE9A5 /* Hello_World_.xcdatamodeld in Sources */,
+				F8FAB053229FBE88008BF16B /* SentimentResults.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,35 +409,44 @@
 		};
 		90FF32FF229D1DBE008DE9A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD38776555EEEC02DDF2170C /* Pods-Hello World!.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56TFM9WY2R;
 				INFOPLIST_FILE = "Hello World!/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mwr.swiftc.Hello-World-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		90FF3300229D1DBE008DE9A5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A22B071619A41FD55189E6B8 /* Pods-Hello World!.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56TFM9WY2R;
 				INFOPLIST_FILE = "Hello World!/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mwr.swiftc.Hello-World-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -347,6 +481,16 @@
 			);
 			currentVersion = 90FF32F4229D1DBC008DE9A5 /* Hello_World_.xcdatamodel */;
 			path = Hello_World_.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		F8FAB04F229EC886008BF16B /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F8FAB050229EC886008BF16B /* Model.xcdatamodel */,
+			);
+			currentVersion = F8FAB050229EC886008BF16B /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
